@@ -143,7 +143,7 @@ const MousePositionGallery = () => {
           >
             <Image
               className="image"
-              src={wallpaper1}
+              src={moovingC}
               alt={"myHomePic"}
               fill={true}
               style={{ objectFit: "cover" }}
