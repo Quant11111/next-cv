@@ -1,6 +1,15 @@
 import styled from "styled-components";
+import { ThemeProvider } from "styled-components";
 
-const MousePositionGalleryRectangle = styled.div`
+interface RectangleProps {
+  top: string;
+  left: string;
+  width: string;
+  height: string;
+  color: string;
+}
+
+const MousePositionGalleryRectangle = styled.div<RectangleProps>`
   border-radius: 1vmax;
   position: absolute;
   transition: transform 800ms ease;
